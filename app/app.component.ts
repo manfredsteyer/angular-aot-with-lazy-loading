@@ -6,7 +6,7 @@ import { Router, CanActivateChild } from '@angular/router'
     templateUrl: './app.component.html'
 })
 export class AppComponent {
-    info = "FlugApp";
+    info = "FlugApp!";
     showInfo = false;
 
     constructor(private router: Router) {
