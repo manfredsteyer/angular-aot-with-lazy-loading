@@ -1,11 +1,11 @@
-# Sample for Angular 2 AOT Compilation with Webpack/Rollup and Tree Shaking
+# Sample for Angular 2 AOT Compilation with webpack, AOT-Plugin and Lazy Loading
 
 # Build
 
-To build the sample for Webpack2+JIT, Webpack2+AOT and Rollup+AOT run this npm script:
+To build the sample with webpack and AOT just run
 
 ```
-npm run build-all
+npm run webpack
 ```
 
 # Start
@@ -14,9 +14,4 @@ npm run build-all
 npm start
 ```
 
-After starting the server and the browser, run one of the following index-files. Each of them starts one of the above mentioned scenarios:
-
-- index.jit.html (Webpack build + JIT)
-- index.aot.html (Webpack build + AOT)
-- index.rollup.aot.html (Rollup + AOT)
-
+Please note, that this starts live-server, as webpack-dev-server has currently problems with AOT (October 2010).
